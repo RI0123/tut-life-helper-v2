@@ -5,7 +5,7 @@ import { Building2, MapPin, Search, X } from 'lucide-react';
 import * as THREE from 'three';
 import Building, { BuildingData, FloorData, Room } from './Building';
 import { fetchBuildings } from '../api';
-import fallbackBuildings from '../../../../../backend/app/data.json';
+import fallbackBuildings from '../data/data.json'
 import { CameraRig } from './CameraRig';
 import { formatFloorTitle } from '../utils/format';
 import { createFloorSearchText, normalizeSearchText } from '../utils/search';
